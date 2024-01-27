@@ -79,7 +79,7 @@ public class ParentController {
 		
 	}
 	
-	@PutMapping("/bookTutor/{pid}/{tid}")
+	@PutMapping("/bookTutor/{pid}/{tid}") // http://localhost:9090/parentApi/bookTutor/101/111
 	public ResponseEntity<String> bookTutor(@PathVariable Integer pid,
 			                                @PathVariable Integer tid) {
 	
