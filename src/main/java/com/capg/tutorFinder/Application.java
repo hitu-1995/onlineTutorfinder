@@ -9,6 +9,8 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		System.out.println("Online Tutorial App is Running..........");
 System.out.println("New Line..........");
+System.out.println("New Line..........");
+
 
 	}
 }
